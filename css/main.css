@@ -66,36 +66,44 @@
 
 
 .main_visual .itm01 {
-    background-image: url(../images/mainvisual01.jpg);
+    background-image: url(../images/slide01.jpg);
 }
 
 .main_visual .itm02 {
-    background-image: url(../images/mainvisual02.jpg);
+    background-image: url(../images/slide02.jpg);
 }
 
 .main_visual .itm03 {
-    background-image: url(../images/mainvisual03.jpg);
+    background-image: url(../images/slide03.jpg);
 }
+
+.main_visual .itm04 {
+    background-image: url(../images/slide04.jpg);
+}
+
+
 
 .main_visual {
     position: relative;
-    height: 100vh;
-    overflow: hidden;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+
+
+
 }
 
 .main_visual .itm {
     position: relative;
-    min-height: 1000px;
+    height: 700px;
+
 
     background-repeat: no-repeat;
     background-position: center center;
     background-size: auto 130%;
 }
 
-.main_visual .itm.on {
-    background-size: auto 100%;
-    transition: 5s;
-}
+
 
 
 .main_visual .itm .inner {
@@ -103,7 +111,7 @@
     top: 50%;
     left: 50%;
     transform: translate();
-    margin: 0 0 0 -700px;
+    margin: 0 0 0 -500px;
 
 
 }
@@ -111,7 +119,7 @@
 .main_visual .itm h3 {
     font-size: 50px;
     /* white-space: nowrap; */
-    margin: 0 0 20px 0;
+    margin: 0 0 30px 0;
     color: #fff;
 
     transform: translate(0, 100px);
@@ -184,7 +192,7 @@
     display: flex;
     gap: 10px;
     transform: translate(0, 0);
-    margin: 0 0 0 -700px;
+    margin: 0 0 0 -500px;
     padding: 0 15px;
 }
 
@@ -233,10 +241,10 @@
 
 .main_visual .arrows {
     position: absolute;
-    left: 50%;
-    top: 50%;
+    left: 25%;
+    top: 70%;
 
-    display: flex;
+
     flex-direction: column;
     gap: 30px;
 
@@ -248,7 +256,7 @@
 
 .main_visual .scr {
     position: absolute;
-    left: 50%;
+    left: 0%;
     bottom: 100px;
 
 
@@ -266,12 +274,12 @@
 .main_visual .slide_num {
     position: absolute;
     top: 100px;
-    left: 50%;
+    left: 30%;
     bottom: 100px;
 
 
 
-    transform: translate(-100%, 0);
+    transform: translate();
     margin: 0 0 0 700px;
     padding: 0 15px;
 
@@ -328,15 +336,15 @@
 .main_visual .arrows i {
     font-size: 30px;
     color: rgba(255, 255, 255, 0.4);
-    border: 2px solid rgba(255, 255, 255, 0.4);
-    padding: 15px;
-    border-radius: 50%;
+
+    padding: 0px;
+
     cursor: pointer;
 }
 
 .main_visual .arrows i:hover {
     color: rgba(255, 255, 255, 1);
-    border: 2px solid rgba(255, 255, 255, 1);
+
 }
 
 
